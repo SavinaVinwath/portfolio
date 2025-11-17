@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savina Vinwath - Portfolio</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-purple" href="#"><i class="fas fa-user me-2"></i>Savina Vinwath</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#works">Works</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="home" class="min-vh-100 d-flex align-items-center py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            
+            <div class="col-lg-6 pe-lg-5" data-aos="fade-up">
+                <h1 class="display-4 fw-bold mb-3 animate-fade-in" id="hero-heading"></h1>
+                <p class="lead text-muted mb-4 fs-5">
+                    WELCOME.<br>
+                    I specialize in UI/UX Design, Responsive Web, and Visual Development.
+                </p>
+                
+                <a href="https://wa.me/+94701182440" target="_blank" class="btn btn-whatsapp mb-3">
+                    <i class="fab fa-whatsapp me-2"></i>Connect on WhatsApp
+                </a>
+            </div>
+            <div class="col-lg-6 text-lg-end">
+                <img src="assets/myphoto.jpg" alt="Your Photo" class="img-fluid rounded float-lg-end animate-fade-in" style="max-width: 80%;" data-aos="fade-left" data-aos-delay="400">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up">About Me</h2>
+        <div class="row align-items-center" data-aos="fade-up">
+            <div class="col-lg-6">
+                <img src="assets/myphoto.jpg" alt="About Photo" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-lg-6">
+                <p class="fs-5">I'm a first-year Information Systems student at Sabaragamuwa University of Sri Lanka. With foundational knowledge in HTML/CSS and emerging skills in JavaScript/TypeScript, Ajax, and Bootstrap, I enjoy crafting intuitive web experiences.</p>
+                <p class="fs-5"><strong>Skills:</strong> HTML, CSS, Bootstrap, JavaScript, TypeScript, Ajax, JSON.</p>
+                
+                <p class="fs-5">
+                    <i class="fas fa-envelope me-2"></i>vinwathsavina@gmail.com &nbsp; | &nbsp;
+                    <i class="fas fa-phone me-2"></i>0701182440 &nbsp; | &nbsp;
+                    <i class="fab fa-whatsapp me-2"></i><a href="https://wa.me/+94701182440" target="_blank01182440" class="btn-whatsapp-link">WhatsApp</a>
+                </p>
+                <a href="cv.pdf" download class="btn btn-outline-primary mt-3" data-aos="zoom-in">
+                    <i class="fas fa-download me-2"></i>Download My CV
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up">My Skills</h2>
+        <div class="row g-4" data-aos="fade-up">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card-body">
+                        <i class="fas fa-code fa-3x text-purple mb-3"></i>
+                        <h5>Web Development</h5>
+                        <p class="text-muted">HTML, CSS, JavaScript, TypeScript, Bootstrap, and AJAX.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card-body">
+                        <i class="fas fa-palette fa-3x text-purple mb-3"></i>
+                        <h5>UI/UX Design</h5>
+                        <p class="text-muted">Designing intuitive interfaces inspired by modern trends.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card-body">
+                        <i class="fas fa-brain fa-3x text-purple mb-3"></i>
+                        <h5>AI & Automation</h5>
+                        <p class="text-muted">Incorporating AI for smarter web applications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="works" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up">My Works</h2>
+        <div id="works-grid" class="row"></div>
+    </div>
+</section>
+
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up">Get In Touch</h2>
+        <form id="contact-form" data-aos="fade-up">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <input type="text" class="form-control" placeholder="Your Name" id="name" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email" id="email" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <input type="tel" class="form-control" placeholder="Your Phone Number" id="phone" required>
+                </div>
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" rows="5" placeholder="Your Message" id="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-purple">
+                <i class="fas fa-paper-plane me-2"></i>Send Message
+            </button>
+        </form>
+        <div id="form-message" class="mt-3"></div>
+    </div>
+</section>
+
+<footer class="bg-white py-4 border-top">
+    <div class="container text-center">
+        <p class="mb-2">&copy; 2025 savina vinwath. All rights reserved.</p>
+        <div>
+            <a href="https://www.linkedin.com/in/savina-vinwath-885521374/" class="mx-2 text-purple" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+            <a href="https://www.facebook.com/savina.vinwath.22" class="mx-2 text-purple" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook fa-lg"></i>
+            </a>
+            <a href="savina.site" class="mx-2 text-purple" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-dribbble fa-lg"></i>
+            </a>
+            <a href="https://github.com/SavinaVinwath" class="mx-2 text-purple" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github fa-lg"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
