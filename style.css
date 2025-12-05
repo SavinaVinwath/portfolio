@@ -1,4 +1,32 @@
+body.dark-mode {
+    background-color: #0a0a2a;
+    color: #ffffff;
+}
 
+body.dark-mode .navbar {
+    background-color: #111;
+}
+
+body.dark-mode .card {
+    background-color: #1a1a3a;
+    color: #ffffff;
+}
+
+body.dark-mode a,
+body.dark-mode a.nav-link {
+    color: #a0cfff;
+}
+
+body.dark-mode footer {
+    background-color: #111;
+    color: #fff;
+}
+
+body.dark-mode .btn-outline-dark {
+    background-color: #333;
+    color: #fff;
+    border-color: #555;
+}
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
@@ -83,34 +111,3 @@ body {
 @keyframes fadeInUp { from {opacity:0;transform:translateY(30px);} to {opacity:1;transform:translateY(0);} }
 
 footer a:hover { color: #667eea !important; }
-
-/* Night mode styles */
-body.dark-mode {
-    background-color: #0a0a2a;
-    color: #ffffff;
-}
-
-body.dark-mode .navbar {
-    background-color: #111;
-}
-
-body.dark-mode .card {
-    background-color: #1a1a3a;
-    color: #ffffff;
-}
-
-body.dark-mode a,
-body.dark-mode a.nav-link {
-    color: #a0cfff;
-}
-
-body.dark-mode footer {
-    background-color: #111;
-    color: #fff;
-}
-
-body.dark-mode .btn-outline-dark {
-    background-color: #333;
-    color: #fff;
-    border-color: #555;
-}
