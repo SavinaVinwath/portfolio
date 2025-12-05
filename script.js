@@ -100,8 +100,8 @@ nightModeBtn.addEventListener('click', () => {
     
     // Change button text
     if(document.body.classList.contains('dark-mode')){
-        nightModeBtn.textContent = '☀️ Day Mode';
+        nightModeBtn.textContent = '☀️ ';
     } else {
-        nightModeBtn.textContent = '🌙 Night Mode';
+        nightModeBtn.textContent = '🌙 ';
     }
 });
