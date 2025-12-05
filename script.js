@@ -1,3 +1,15 @@
+const nightModeBtn = document.getElementById('night-mode-toggle');
+
+nightModeBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    
+    // Change button text
+    if(document.body.classList.contains('dark-mode')){
+        nightModeBtn.textContent = '☀️ ';
+    } else {
+        nightModeBtn.textContent = '🌙 ';
+    }
+});
 
 const typewriterText = "HELLO! <br> I'm Savina Vinwath";
 const heroHeading = document.querySelector("#home h1");
@@ -93,15 +105,3 @@ AOS.init({
     mirror:true 
 });
 
-const nightModeBtn = document.getElementById('night-mode-toggle');
-
-nightModeBtn.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
-    
-    // Change button text
-    if(document.body.classList.contains('dark-mode')){
-        nightModeBtn.textContent = '☀️ ';
-    } else {
-        nightModeBtn.textContent = '🌙 ';
-    }
-});
