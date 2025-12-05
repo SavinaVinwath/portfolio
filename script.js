@@ -92,3 +92,16 @@ AOS.init({
     once:false, 
     mirror:true 
 });
+
+const nightModeBtn = document.getElementById('night-mode-toggle');
+
+nightModeBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    
+    // Change button text
+    if(document.body.classList.contains('dark-mode')){
+        nightModeBtn.textContent = '☀️ Day Mode';
+    } else {
+        nightModeBtn.textContent = '🌙 Night Mode';
+    }
+});
