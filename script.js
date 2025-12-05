@@ -12,7 +12,7 @@ nightModeBtn.addEventListener('click', () => {
 });
 
 const typewriterText = "HELLO! <br> I'm Savina Vinwath";
-const heroHeading = document.querySelector("#home h1");
+const heroHeading = document.getElementById('hero-heading');
 let i = 0;
 function typeWriter() {
     if(i < typewriterText.length){
