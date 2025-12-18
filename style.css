@@ -6,12 +6,15 @@ body.dark-mode {
 body.dark-mode .navbar {
     background-color: #111;
 }
+
 body.dark-mode #about,
 body.dark-mode #works {
-    background-color: #0a0a2a !important; /* sections with bg-light */
+    background-color: #0a0a2a !important;
     color: #fff !important;
+}
 
-body.dark-mode .card {
+body.dark-mode .card,
+body.dark-mode .project-card {
     background-color: #1a1a3a;
     color: #ffffff;
 }
@@ -31,15 +34,25 @@ body.dark-mode .btn-outline-dark {
     color: #fff;
     border-color: #555;
 }
+
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     scroll-behavior: smooth;
 }
-.container { max-width: 1200px; }
 
-.text-purple { color: #764ba2 !important; }
-.bg-purple { background-color: #764ba2 !important; }
+.container {
+    max-width: 1200px;
+}
+
+.text-purple {
+    color: #764ba2 !important;
+}
+
+.bg-purple {
+    background-color: #764ba2 !important;
+}
+
 .btn-purple {
     background: linear-gradient(135deg, #764ba2, #667eea);
     color: white;
@@ -49,6 +62,7 @@ body {
     font-weight: 600;
     transition: all 0.3s ease;
 }
+
 .btn-purple:hover {
     transform: scale(1.05);
     color: white;
@@ -56,7 +70,8 @@ body {
     box-shadow: 0 5px 15px rgba(118, 75, 162, 0.4);
 }
 
-.btn-whatsapp, .btn-whatsapp-link {
+.btn-whatsapp,
+.btn-whatsapp-link {
     background-color: #25D366;
     color: white;
     padding: 0.5rem 1rem;
@@ -65,23 +80,36 @@ body {
     font-weight: 600;
     transition: all 0.3s ease;
 }
-.btn-whatsapp:hover, .btn-whatsapp-link:hover {
+
+.btn-whatsapp:hover,
+.btn-whatsapp-link:hover {
     transform: scale(1.05);
     color: white;
     text-decoration: none;
 }
 
-#home { background: #f8f9fa; }
-#home h1 { font-size: clamp(2.5rem, 5vw, 4rem); line-height: 1.1; }
-#home .text-purple { font-size: 3rem; font-weight: 900; }
+#home {
+    background: #f8f9fa;
+}
+
+#home h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    line-height: 1.1;
+}
+
+#home .text-purple {
+    font-size: 3rem;
+    font-weight: 900;
+}
 
 .blink {
     animation: blink-cursor 0.7s steps(1) infinite;
     color: #764ba2;
 }
+
 @keyframes blink-cursor {
-    0%,50%,100% {opacity:1;}
-    25%,75% {opacity:0;}
+    0%, 50%, 100% { opacity: 1; }
+    25%, 75% { opacity: 0; }
 }
 
 .project-card {
@@ -93,11 +121,17 @@ body {
     background: white;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
+
 .project-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
-.project-card img { height: 200px; object-fit: cover; }
+
+.project-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
 .tech-badge {
     background: linear-gradient(135deg, #764ba2, #667eea);
     color: white;
@@ -106,31 +140,74 @@ body {
     font-size: 0.8rem;
     margin: 0.1rem;
 }
+
+/* 🔥 UPDATED LIVE DEMO BUTTON (ONLY CHANGE) */
 .live-demo-btn {
-  display: inline-block;
-  padding: 10px 18px;
-  margin-top: 10px;
-  border-radius: 30px;
-  background: linear-gradient(135deg,#764ba2,#667eea);
-  color: white;
-  text-decoration: none;
-  transition: 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 20px;
+    margin-top: 14px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #6f42c1, #8250df);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(111, 66, 193, 0.35);
 }
+
 .live-demo-btn:hover {
-  transform: translateY(-3px);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(111, 66, 193, 0.55);
+    color: #ffffff;
 }
 
 body.dark-mode .live-demo-btn {
-  background: linear-gradient(135deg, #3a3a3a, #555);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(135deg, #2d2d2d, #444);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 }
 
+#cta-message,
+#form-message {
+    font-size: 0.9rem;
+}
 
-#cta-message, #form-message { font-size: 0.9rem; }
-.success { color: #28a745; }
-.error { color: #dc3545; }
+.success {
+    color: #28a745;
+}
 
-.animate-fade-in { animation: fadeInUp 1s ease-out; }
-@keyframes fadeInUp { from {opacity:0;transform:translateY(30px);} to {opacity:1;transform:translateY(0);} }
+.error {
+    color: #dc3545;
+}
 
-footer a:hover { color: #667eea !important; }
+.animate-fade-in {
+    animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+footer a:hover {
+    color: #667eea !important;
+}
+
+/* 📱 Mobile polish */
+@media (max-width: 768px) {
+    .live-demo-btn {
+        width: 100%;
+        padding: 14px;
+        font-size: 1rem;
+    }
+}
