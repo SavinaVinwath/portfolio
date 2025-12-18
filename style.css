@@ -106,6 +106,34 @@ body {
     font-size: 0.8rem;
     margin: 0.1rem;
 }
+    .live-demo-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 18px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #6f42c1, #8250df);
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 16px rgba(111, 66, 193, 0.35);
+}
+
+.live-demo-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 22px rgba(111, 66, 193, 0.5);
+  color: #ffffff;
+}
+
+body.dark-mode .live-demo-btn {
+  background: linear-gradient(135deg, #3a3a3a, #555);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
+
 
 #cta-message, #form-message { font-size: 0.9rem; }
 .success { color: #28a745; }
