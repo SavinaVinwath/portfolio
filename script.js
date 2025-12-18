@@ -33,7 +33,7 @@ const projects = [
     description:
       "A personal portfolio website built with HTML, CSS, Bootstrap, and JavaScript.",
     image: "assets/project1.jpg",
-    technologies: ["HTML", "CSS", "Bootstrap", "JavaScript"]
+    technologies: ["HTML", "CSS", "Bootstrap", "JavaScript"],
     liveDemo: "https://savinavinwath.social"
   },
   {
