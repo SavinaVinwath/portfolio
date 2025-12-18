@@ -71,7 +71,7 @@ projects.forEach((project) => {
       </div>
       ${
         project.liveDemo
-          ? `<a href="${project.liveDemo}" target="_blank" class="btn btn-primary mt-auto">🚀 Live Demo</a>`
+          ? `<a href="${project.liveDemo}" target="_blank" class="btn btn-primary mt-auto"> Live Demo</a>`
           : ""
       }
     </div>
