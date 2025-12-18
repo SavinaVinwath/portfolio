@@ -26,8 +26,8 @@ typeWriter();
 const projects = [
     { "title":"Portfolio Website","description":"A personal portfolio website built with HTML, CSS, Bootstrap, and JS.","image":"assets/project1.jpg","technologies":["HTML","CSS","Bootstrap","JavaScript"] },
     { "title":"Task Manager App","description":"A web app to manage daily tasks with a clean UI and responsive design.","image":"assets/project2.jpg","technologies":["HTML","CSS","JavaScript","Bootstrap"] },
-    { "title":"Weather Dashboard","description":"Real-time weather dashboard using AJAX and open APIs.","image":"assets/project3.jpg","technologies":["HTML","CSS","JavaScript","AJAX"] }
-    { "title":"Visit Sri Lanka","description":"A responsive travel and tourism website designed to promote Sri Lanka’s top destinations, cultural heritage, and natural beauty.","image":"assets/project5.jpg","technologies":["HTML","CSS","Bootstrap","JavaScript"] "liveDemo": "https://lankavisit.page" },
+    { "title":"Weather Dashboard","description":"Real-time weather dashboard using AJAX and open APIs.","image":"assets/project3.jpg","technologies":["HTML","CSS","JavaScript","AJAX"] },
+    { "title":"Visit Sri Lanka","description":"A responsive travel and tourism website designed to promote Sri Lanka’s top destinations, cultural heritage, and natural beauty.","image":"assets/project5.jpg","technologies":["HTML","CSS","Bootstrap","JavaScript"] "liveDemo": "https://lankavisit.page" }
     
 ];
 
