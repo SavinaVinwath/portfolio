@@ -143,33 +143,31 @@ body {
 
 /* 🔥 UPDATED LIVE DEMO BUTTON (ONLY CHANGE) */
 .live-demo-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    padding: 12px 20px;
-    margin-top: 14px;
-    border-radius: 999px;
-    background: linear-gradient(135deg, #6f42c1, #8250df);
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 0.95rem;
-    letter-spacing: 0.3px;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    box-shadow: 0 8px 20px rgba(111, 66, 193, 0.35);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 20px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #6f42c1, #8250df);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(111, 66, 193, 0.35);
 }
 
 .live-demo-btn:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 28px rgba(111, 66, 193, 0.55);
-    color: #ffffff;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(111, 66, 193, 0.55);
+  color: #ffffff;
 }
 
 body.dark-mode .live-demo-btn {
-    background: linear-gradient(135deg, #2d2d2d, #444);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  background: linear-gradient(135deg, #2d2d2d, #444);
 }
+
 
 #cta-message,
 #form-message {
